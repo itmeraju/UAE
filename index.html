@@ -3,41 +3,62 @@
 <html>
 <head>
     <title>
-        layout
+        UNITED AIR EXPRESS
     </title>
     <style type="text/css">
 .mainarea{
-    margin: 0 auto;
+     float:left;
     width: 1200px;
     height: 1600px;
-    background-color: yellow;
 }
 
 .header{padding: 0 75px 0 75px;
+    background-image: url(trans.jpg);
+    background-repeat: repeat;
+    -webkit-background-composite: var(1050px);
     width: 1050px;;
     height: 150px;
-    background-color: rgb(18, 14, 241);
+    display: flex;
 }
 .navarea{
     width:1200px;
-    height:50px;
-    background-color: rgb(38, 38, 211);
+    height: 40px;;
+    padding-top: 10px;
+    float: left;
+   
 }
+.navarea marquee{
+    font-size: 30px;
+    font-weight: 800;
+    
+}
+
   .firstarea{
       width: 1200px;
       height: 500px;
       background-color: rgb(28, 204, 28);
   } 
   .secondarea{
+      text-align: center;
       width: 1200px;
       height: 500px;
-      background-color: rgb(43, 166, 214);
-
-  }
+      background-color: rgb(43, 166, 214);}
+      .secondarea P{
+          text-align: center;
+      }
+      .secondarea ul{
+          margin: 0%;
+      }
+      .secondarea li{
+          text-align: center;
+          margin: 0%;
+      }
   .footer{
       width: 1200px;
       height: 400px;
-      background-color: black;
+      background-image: url(trans.jpg);
+    background-repeat: repeat;
+     
   }
   .logoarea{
       padding: 25px;
@@ -49,108 +70,208 @@
   .logoarea img{
       width: 100px;
       height: 100px;
-      border-radius: 50%;
+      border-radius: 40%;
+
   }
   .titalarea{
       width: 900px;
       height: 150px;
-    
-      float:left
-  }
-  .t1{padding: 25px 0 0 0 ;
-    width: 900px;
-      height: 75px;
-      
+      display: flexbox;
+      float: left;
       
   }
-  .t1 h1{
-      color: aliceblue;
+       .t1{padding: 25px 0 0 0 ;
+        width: 975px;
+         height: 130px;
+         
+       }
+       .t1 h1{
       text-align: center;
-  }
-.t2{
-    width: 900px;
-      height: 45px;
-      
-
-}
-.t2 h5{text-align: center;
-color: aliceblue;}
-
-  .f1{
-  width: 300px;
+      }
+      .t1 h3{
+          text-align: center;
+      }
+     .f1 img{ width: 300px;
+     height: 200px;
+     border-radius: 40%;
+     display: flex;;
+     }
+     .f1 {width: 300px;
       height: 400px;
-      background-color: pink;
       float: left;
-      
-  }
- .f2{
-    width: 300px;
+      }
+      .f1 p{
+      text-align: center;
+      }.f2 img{ width: 300px;
+     height: 200px;
+     border-radius: 40%;
+     display: flex;}
+     .f1 h1{
+         text-align: center;
+     }
+     .f2 p{text-align: center;}
+     .f2{
+     width: 300px;
       height: 400px;
-      background-color: rgb(182, 113, 24);
-      float: left;
-    
-  }
-  .f3{
-    width: 300px;
+      float: left;}
+     .f2 h1{ text-align: center;}
+     .f3{
+     width: 300px;
       height: 400px;
-      background-color: rgb(19, 236, 30);
-      float: left;
-    
-  }
-  .f4{
-    width: 300px;
+      float: left; }
+      .f3  img{ width: 300px;
+     height: 200px;
+     border-radius: 40%;
+     display: flex;;}
+     .f3 p{
+         text-align: center;
+     }
+     .f3 h1{
+         text-align: center;
+     }
+      .f4{
+      width: 300px;
       height: 400px;
-      background-color: rgb(188, 243, 36);
       float: left;
-  }
-  .d1{
+       }
+       .f4 img{ width: 300px;
+     height: 200px;
+     border-radius: 40%;
+     display: flex;}
+     .f4 p{
+         text-align: center;
+     }
+     .f4 h1{
+         text-align: center;
+     }
+      .d1{
       width: 800px;
       height: 500px;
       background-color: rgb(38, 240, 122);
       float:left
-  }
-  .dhead{
-    width: 800px;
+      }
+    .dhead{
+     width: 800px;
       height: 60px;
       padding: 20px 0 0 0;
       text-align: center;
   }
   .dhead h2{border-bottom: solid 1px;
 display:inline} 
+/*here is about */
   .dbody{ padding: 0 20px;
     width: 760px;
       height: 420px;
       text-align: justify;
       font-size: large;     
   }
-.d2{
+.d2 img{
     width: 400px;
     height: 500px;
-    background-color:black ;
     float:left
 }
+ .dbody p{
+    cursor: pointer;
+    outline-style: solid;
+    position: relative;
+    z-index: 1;
+ }
+ .sidenav{
+     width:120px;
+     height: 1500px;
+     background-color: aquamarine;
+     float:left;
+ }
+ .sarea{
+     width:176px;
+     height: 1500px;
+     background-color: rgb(224, 16, 16);
+     float:right;
+ }
+ .mar{
+     padding-bottom: 10px;
+ }
+ .sidenav ul{
+     display: none;
+ }
+ .button:hover ul{
+     display: block;
+ }
+ .button{
+     text-align: center;
+     font-size: large;
+     font-weight: 900;
+     
+ }
+ .button button{
+     width: 60px;
+     height: 60px;
+ }
+ a{
+     text-decoration: none;
+ }
+ .button ul li a:hover{
+     display: block;
+    transform: translate(-2px, -3px);
+    background-color: greenyellow;
+
+ } 
+ 
+ .active, button:hover{
+     background-color: purple;
+     border-radius: 2px;
+ }
+
+ .button ul li a:hover .active{
+     display: contents;
+     position: absolute;
+
+ }
+ .button ul li{ 
+     text-align: left;
+     display:block;
+     list-style-type:none;
+     margin-bottom: 5px;
+     margin-left:-10px;
+ }
   </style>
 </head>
-<body>
+<body> 
+    <div class="sidenav">
+        <div class="button">
+            <button class="active">MUNE
+
+            </button>
+       
+        <ul>
+            <li><a href="gallary.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contect.html">Contact</a></li>
+        </ul> </div>
+     </div>
     <div class="mainarea">
         <div class="header">
             <div class="logoarea">
-                <img src="pro1.jpg" alt="logo">
+                <img src="TATA.jpg" alt="logo">
+
     
             </div>
             <div class="titalarea">
                 <div class="t1">
-                    <h1>TATA STEEL ESCORT SERVICE</h1>
+                    <h1> TATA STEEL VEHICLE ESCORT SERVICE</h1>
+                    <h3>We are always be  their for all vehicle</h3>
                 </div>
-                <div class="t2">
-                    <h5>we are always be their for all vehicles </h5>
-                </div>
+                
             </div>
         </div>
         <div class="navarea">
-
+            
+                <marquee direction="right" scrollamount="15"  loop="-1" behavior="alternate" onmouseover="this.stop()" onmouseout="this.start()">UNITED AIR EXPRESS </marquee>
+            
         </div>
-        <div class="firstarea">
+
+
+            <div class="firstarea">
                  <div class="d1">
                      <div class="dhead">
                          <h2>ABOUT US</h2>
@@ -164,22 +285,48 @@ display:inline}
                         vehicle too. In escorting team all empolyee highly trained and professional,good working  skills and ethics</p>
                      </div>
                  </div>
-                 <div class="d2"></div>
+                 <div class="d2">
+                     <img src="truck.jpg" alt="image">
+                 </div>
         </div>
         <div class="secondarea">
-
+            <h1  >COMMAND AND CONTROL</h1>
+                <p>
+                    Mian role of command and control is to reduse vivo hours of all vehicle we are profrom following jobs
+                   <ul>
+                        <li>once vehicle report at transport park co-ordinate with all the required agency</li>
+                        <li>like GRn, wearhouse end user and other working agency at transport park i=like JTT.MEDICAL TEAM E-trans etc</li>
+                        <li>The all required activity at transport park<strang>Ensure that the quality of all upload document should be high quality so that GRN amy be processes without any problem</strang></li>
+                    </ul>
+                </p>
         </div>
         <div class="footer">
                 <div
-                class="f1">
+                class="f1"> <img src="rahan.jpg" alt="image">
+                <h1>Rahan Raza ansari</h1>
+                <p >He was a supervisor of command and control We meet at tata steel he is very disciplined active listener well mannered person have good ethics and behaviour He is my good friend</p>
             </div>
-            <div class="f2"></div>
+            <div class="f2">
+                <img src="rishav.jpg" alt="image">
+                <h1>Rishav Panday</h1>
+                <p>He is escorting supervisor a good person well mentor and always supportive and manage all kind of pressure and always behave good </p>
+            </div>
             <div
-            class="f3"></div>
-            <div class="f4"></div>
-        </div>
+            class="f3"> <img src="ratnesh.jpg" alt="image">
+            <h1>Ratnesh kumar</h1>
+            <p>Ratnesh Sir is a Senior manage of Tata Steel he is very supportive person always help full with anything and responsive person</p>
+            </div>
+            <div class="f4">
+                <img src="roshan.jpg" alt="image">
+                <h1>Roshan sonar</h1>
+                <p>he is working at command and control as a supportive role give direction to all driver where to go He is very good person and very sensitive as well as sansible</p>
+                
+            </div>
+
+        </div> 
 
 
     </div>
+    <div class="sarea"></div>
 </body>
 </html>
